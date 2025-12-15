@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 import yt_dlp
 
-BOT_TOKEN = 'ඔයාගෙ BotFather ටිකෙන් ලැබුන Token එක'
+BOT_TOKEN = '8584541931:AAGbZwob5vjsWfmZDaHKgnJ5xI2gSi4PsGc'
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("🎬 Send me a YouTube/film link to download.")
